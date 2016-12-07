@@ -318,7 +318,7 @@ public class ScrSongOne extends InputAdapter implements Screen {
             font.draw(batch, String.valueOf(eff) + "%", 300, YMid * 2);
             font.draw(batch, String.valueOf(count) + " / " + String.valueOf(max), 425, YMid * 2);
             font.draw(batch, "Escape to exit", XMid - 50, 30);
-            font.draw(batch, "Spacebar to pause or unpause", XMid - 50, 85);
+            font.draw(batch, "Spacebar to pause or unpause", XMid - 50, 76);
             font.draw(batch, "Press Enter to show end screen!", XMid - 50, 52);
             spriteP.draw(batch);
             batch.end();
